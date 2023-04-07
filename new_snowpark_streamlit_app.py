@@ -33,7 +33,7 @@ def load_data():
     # CO2 Emissions
     snow_df_co2 = session.table("EDGARED2019").filter(col('Indicator Name') == 'Fossil CO2 Emissions').filter(col('Type Name') == 'All Type').sort('"Date"')
 
-    # Forest Occupied Land Area by Country
+    # Forest Occupied Land Area by Countrysdfs
     snow_df_land = session.table("\"WBWDI2019Jan\"").filter(col('Series Name') == 'Forest area (% of land area)')
     snow_df_land = snow_df_land.group_by('Country Name').agg(sum('$61').alias("Total Share of Forest Land")).sort('Country Name')
 
