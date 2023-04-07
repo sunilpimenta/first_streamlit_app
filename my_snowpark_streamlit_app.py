@@ -23,7 +23,7 @@ def create_session_object():
       "password": "muchDeeping!45",
       "role": "accountadmin",
       "warehouse": "compute_wh",
-      "database": "KNOEMA_ENVIRONMENT_DATA_ATLAS",
+      "database": "ENVIRONMENT_DATA_ATLAS",
       "schema": "ENVIRONMENT"
     }
     session = Session.builder.configs(connection_parameters).create()
