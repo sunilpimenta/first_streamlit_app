@@ -1,0 +1,9 @@
+{
+    "account"     :"qw04075.ca-central-1.aws",
+    "user"        :"sunilpimenta",
+    "password"    :"muchDeeping!45",
+    "role"        :"accountadmin",
+    "warehouse"   :"compute_wh",
+    "database"    :"ENVIRONMENT_DATA_ATLAS",
+    "schema"      :"ENVIRONMENT"
+}
